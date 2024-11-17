@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <br>
+    <br>
+    <br>
+    <center><img src="sashslogo.png" height="180"></center>
+<title>Thank You Page</title>
+<style>
+    body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+    .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .gradient-text {
+            background: linear-gradient(to bottom, #FF0000, #0000FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text-stroke {
+            color: rgb(0, 0, 0);
+            -webkit-text-stroke: 1px black;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animated-text {
+            animation: fadeIn 2s ease-in;
+        }
+        .spaced-text {
+            letter-spacing: 2px;
+            line-height: 1.5;
+        }
+        .hover-effect {
+            transition: color 0.3s ease;
+        }
+        .hover-effect:hover {
+            color: #ff6347;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+    .glow {
+        -webkit-text-stroke: 1px black;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #FFC0CB, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #FFC0CB, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+</style>
+</head>
+<body bgcolor="#9F756A">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="eventspage.html">Events</a></li>
+        <li><a  class="active" href="contactspage.html">Contact</a></li>
+        <li><a href="aboutpage.html">About</a></li>
+      </ul>
+<center><h1 class="glow">Thank you for contacting us!</h1></center>
+<center><h1 class="glow">Your efforts shall be acknowledged.</h1></center>
+<center><p>In 2-4 business days.</p></center>
+</body>
+</html>

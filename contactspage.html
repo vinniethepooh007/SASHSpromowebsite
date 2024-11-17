@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contacts Page</title>
+<style>
+  body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+    .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    .glow {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #FFC0CB, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #FFC0CB, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+</style>
+</head>
+<br>
+<br>
+<br>
+<center><img src="sashslogo.png" height="180"></center>
+<body bgcolor="#9F756A">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="eventspage.html">Events</a></li>
+    <li><a  class="active" href="contactspage.html">Contact</a></li>
+    <li><a href="aboutpage.html">About</a></li>
+  </ul>
+<center><h1 class="glow">Contact Us!</h1></center>
+<center><h3 class="text-shadow">Should you ever feel the need to give us suggestions, or submit any complaints? Then enter the information down below!</h3></center>
+<center><table border="1" cellspacing="5"><!--First Table-->
+  <tr>
+    <td>Email Address</td>
+    <td><input type="text" width="50"></td>
+  </tr>
+  <tr>
+    <td>Message</td>
+    <td><input "text" width="50"></td>
+  </tr>
+  </table></center>
+  <center><a href="thankyou.html"><button><h1 class="glow"><i>Submit</i></h1></button></a></center>
+  <br>
+  <br>
+  <center><h1>Stand Alone Senior High School 2024</h1></center>
+</body>
+</html>

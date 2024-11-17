@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Events Page</title>
+<br>
+<br>
+<br>
+<center><img src="sashslogo.png" height="180"></center>
+<style>
+  body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+    .glow {
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #FFC0CB, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #FFC0CB, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.gradient-text {
+            background: linear-gradient(to bottom, #FF0000, #0000FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 25px;
+</style>
+</head>
+<body bgcolor="#9F756A">
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active" href="eventspage.html">Events</a></li>
+  <li><a href="contactspage.html">Contact</a></li>
+  <li><a href="aboutpage.html">About</a></li>
+</ul>
+  <h1 class="glow">Events</h1>
+  <center><table border="7">
+    <tr>
+      <th><img src="recognition.jpg" height="150"</th>
+      <th><img src="engclub announcement.jpg" height="150"</th>
+      <th><img src="teachers.jpg" height="150"</th>
+      <th><img src="alsorientation.jpg" height="150"</th>
+    </tr>
+    <tr>
+      <td class="gradient-text">Recognition</td>
+      <td class="gradient-text">English Month</td>
+      <td class="gradient-text">Teacher's Month</td>
+      <td class="gradient-text">ALS Orientation</td>
+    </tr>
+  </table></center>
+  <br>
+  <center><h3>Stand Alone Senior High School 2024</h3></center>
+</body>
+</html>
